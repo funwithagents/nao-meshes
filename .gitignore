@@ -1,0 +1,18 @@
+# Aldebaran's meshes (CC BY-NC-ND 4.0) never enter git: not the installer, not its install,
+# not the converted files, not the archives. They exist only in encrypted release assets.
+build/
+*.run
+*.dae
+*.obj
+*.stl
+*.mesh
+*.png
+*.jpg
+*.zip
+meshes/
+texture/
+textures/
+
+.venv/
+__pycache__/
+.DS_Store

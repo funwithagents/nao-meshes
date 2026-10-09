@@ -1,0 +1,15 @@
+[project]
+name = "nao-meshes"
+version = "1.0.0"
+description = "Builds the encrypted nao-meshes release archives: Aldebaran's NAO meshes as OBJ + PNG, for nao-viewer's fetch-meshes."
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2",
+    "pillow>=11",
+    "pycollada>=0.9",
+    "scipy>=1.14",
+    "trimesh>=4",
+]
+
+[tool.uv]
+package = false
